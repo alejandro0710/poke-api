@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    background: url(https://assets.pokemon.com//assets/cms2-es-es/img/misc/virtual-backgrounds/sword-shield/pokemon-in-the-wild.png);
+}
+
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top:  50px;
+}
+
+.card{
+    border: blue 1px solid;
+    padding: 10px;
+}
+
+.card-body{
+    background: #ffff;
+}
+
+.card-body-img{
+    width: 300px;
+}
+
