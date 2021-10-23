@@ -19,7 +19,7 @@ main {
 
 .card {
   width: 350px;
-  height: 550px;
+  height: 570px;
   background: url(https://www.wallpapertip.com/wmimgs/90-908978_pokemon-phone-wallpaper-4k.jpg);
   background-size: contain;
   border: blue 1px solid;
@@ -51,8 +51,7 @@ main {
 }
 
 .card-body-img {
-  width: 280px;
-  height: 100%;
+  width: 90%;
 }
 
 .card-body-title {
