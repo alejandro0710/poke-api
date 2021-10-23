@@ -4,27 +4,81 @@
   padding: 0;
 }
 
-body{
-    background: url(https://assets.pokemon.com//assets/cms2-es-es/img/misc/virtual-backgrounds/sword-shield/pokemon-in-the-wild.png);
+body {
+  background: url(https://assets.pokemon.com//assets/cms2-es-es/img/misc/virtual-backgrounds/sword-shield/pokemon-in-the-wild.png)
+    no-repeat 50%;
+  font-family: 'Press Start 2P', cursive;
 }
 
-main{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-top:  50px;
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
 }
 
-.card{
-    border: blue 1px solid;
-    padding: 10px;
+.card {
+  width: 350px;
+  height: 550px;
+  background: url(https://www.wallpapertip.com/wmimgs/90-908978_pokemon-phone-wallpaper-4k.jpg);
+  background-size: contain;
+  border: blue 1px solid;
+  border-radius: 5px;
+  padding: 10px;
 }
 
-.card-body{
-    background: #ffff;
+.card-footer {
+  margin: 5px;
 }
 
-.card-body-img{
-    width: 300px;
+.card-title {
+  margin-bottom: 15px;
 }
 
+.card-body {
+  background: #ffff;
+  border-radius: 10px;
+  border: red 1px solid;
+  height: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-footer {
+  padding: 5px;
+  background: rgb(165, 168, 158);
+}
+
+.card-body-img {
+  width: 280px;
+  height: 100%;
+}
+
+.card-body-title {
+  margin-bottom: 3px;
+}
+
+.card-body-title span {
+  color: rgb(111, 206, 17);
+}
+
+.card-body-text {
+  color: chocolate;
+}
+
+.card-footer-social {
+  margin: 10px;
+}
+
+.attack {
+  color: red;
+}
+
+.specialAttack {
+  color: rgb(50, 159, 163);
+}
+
+.Defense {
+  color: rgb(170, 170, 25);
+}
